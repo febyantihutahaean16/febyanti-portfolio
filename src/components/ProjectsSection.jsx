@@ -42,9 +42,9 @@ const projects = [
     // recommended: 1200x700
     cover: "/src/img/projects/ami_cover.jpg",
     gallery: [
-      "/src/img/projects/ami_1.jpg",
-      "/src/img/projects/ami_2.jpg",
-      "/src/img/projects/ami_3.jpg",
+      "../img/projects/ami_1.jpg",
+      "../img/projects/ami_2.jpg",
+      "../img/projects/ami_3.jpg",
     ],
     links: {
       github: "", // isi kalau ada
@@ -70,7 +70,7 @@ const projects = [
       "Print/export-friendly layout for documentation.",
     ],
     tech: ["Laravel", "MySQL", "UI Components", "RBAC"],
-    cover: "/src/img/projects/audit_cover.jpg",
+    cover: "../img/projects/audit_cover.jpg",
     gallery: ["/src/img/projects/audit_1.jpg", "/src/img/projects/audit_2.jpg"],
     links: { github: "", demo: "" },
     badge: "Web",

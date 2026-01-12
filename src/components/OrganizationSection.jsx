@@ -10,8 +10,7 @@ const organizations = [
     location: "Laguboti, Indonesia",
     chip: "Org",
 
-    // ✅ tambah logo gambar
-    logoUrl: "/src/img/BemITD_logo.png",
+    logoUrl: "../img/BemITD_logo.png",
 
     popup: {
       title: "Treasurer II – Student Executive Board (BEM) IT DEL 2026",
@@ -25,8 +24,8 @@ const organizations = [
         "Coordinated budget allocation with internal divisions and organizational events.",
         "Ensured accurate and accountable financial records to support internal reviews.",
       ],
-      img1: "/src/img/org_bem_proof.jpg",
-      img2: "/src/img/org_bem_activity.jpg",
+      img1: "../img/org_bem_proof.jpg",
+      img2: "../img/org_bem_activity.jpg",
       img1Label: "Proof / Document",
       img2Label: "Activity Photo",
     },
@@ -37,7 +36,7 @@ const organizations = [
     date: "Aug 2025",
     location: "Laguboti, Indonesia",
     chip: "Org",
-    logoUrl: "/src/img/ITD_logo.jpg",
+    logoUrl: "../img/ITD_logo.jpg",
     popup: {
       title: "Matriculation Committee",
       subtitle: "Del Institute of Technology",
@@ -49,8 +48,8 @@ const organizations = [
         "Taught basic programming and laptop usage to new students.",
         "Helped freshmen adapt to the learning culture and academic environment at IT Del.",
       ],
-      img1: "/src/img/org_matriculation_proof.jpg",
-      img2: "/src/img/org_matriculation_activity.jpg",
+      img1: "../img/org_matriculation_proof.jpg",
+      img2: "../img/org_matriculation_activity.jpg",
       img1Label: "Proof / Document",
       img2Label: "Activity Photo",
     },
@@ -61,7 +60,7 @@ const organizations = [
     date: "Oct 2024",
     location: "Laguboti, Indonesia",
     chip: "Org",
-    logoUrl: "/src/img/himatifITD_logo.jpg",
+    logoUrl: "../img/himatifITD_logo.jpg",
     popup: {
       title: "Cadre Formation Committee for Class of 2024",
       subtitle: "Del Institute of Technology",
@@ -72,8 +71,8 @@ const organizations = [
       bullets: [
         "Organized introduction and sharing sessions to help new students understand the study program and adapt academically and socially.",
       ],
-      img1: "/src/img/org_cadre_proof.jpg",
-      img2: "/src/img/org_cadre_activity.jpg",
+      img1: "../img/org_cadre_proof.jpg",
+      img2: "../img/org_cadre_activity.jpg",
       img1Label: "Proof / Document",
       img2Label: "Activity Photo",
     },
@@ -84,7 +83,7 @@ const organizations = [
     date: "Aug 2024",
     location: "Laguboti, Indonesia",
     chip: "Org",
-    logoUrl: "/src/img/ITD_logo.jpg",
+    logoUrl: "../img/ITD_logo.jpg",
     popup: {
       title: "Program Cinta Almamater (PCA) Committee",
       subtitle: "Del Institute of Technology",
@@ -95,8 +94,8 @@ const organizations = [
       bullets: [
         "Supported new students in adapting to dormitory and campus life through orientation activities that fostered discipline, critical thinking, and a sense of belonging to Institut Teknologi Del.",
       ],
-      img1: "/src/img/org_pca_proof.jpg",
-      img2: "/src/img/org_pca_activity.jpg",
+      img1: "../img/org_pca_proof.jpg",
+      img2: "../img/org_pca_activity.jpg",
       img1Label: "Proof / Document",
       img2Label: "Activity Photo",
     },

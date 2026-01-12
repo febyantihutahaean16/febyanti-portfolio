@@ -5,16 +5,16 @@ export default function HeroSection() {
   const slides = useMemo(
     () => [
       {
-        title: "Feby.",
+        title: "Febyanti.",
         subtitle: "Technology",
         caption: "Current Work: Final-year IT Student",
-        imageUrl: "/src/img/me3.jpg",
+        imageUrl: "../img/hero-1.jpg",
       },
       {
-        title: "Feby",
+        title: "Febyanti.",
         subtitle: "Creativity",
         caption: "Current Work: Web Development & Projects",
-        imageUrl: "/src/img/me4.jpg",
+        imageUrl: "../img/hero-2.jpg",
       },
     ],
     []
