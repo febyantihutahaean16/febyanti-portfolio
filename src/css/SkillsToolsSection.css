@@ -1,0 +1,64 @@
+.secWrap {
+  margin-top: 22px;
+}
+
+.secHead {
+  margin-bottom: 12px;
+}
+
+.secTitle {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--text);
+  margin: 0;
+}
+
+.secDesc {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 860px) {
+  .skillGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.skillCard {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.skillTitle {
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.chipWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  background: var(--card2);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+}

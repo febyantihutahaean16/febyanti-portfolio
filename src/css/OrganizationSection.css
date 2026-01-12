@@ -1,0 +1,311 @@
+.secWrap {
+  margin-top: 22px;
+}
+
+.secHead {
+  margin-bottom: 12px;
+}
+
+.secTitle {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--text);
+  margin: 0;
+}
+
+.secDesc {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.orgGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 860px) {
+  .orgGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.orgCard {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+
+  position: relative; /* ✅ buat tombol icon absolute */
+}
+
+.orgTop {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+/* ✅ LOGO WRAP (image or fallback) */
+.orgLogoWrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: var(--card2);
+  border: 1px solid var(--border);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.orgLogoImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+}
+
+.orgLogoFallback {
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.orgMain {
+  flex: 1;
+  min-width: 0;
+}
+
+.orgTitle {
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--text);
+}
+
+.orgSub {
+  color: var(--accent);
+  font-weight: 800;
+  margin-top: 2px;
+}
+
+.orgMeta {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.dotSep {
+  opacity: 0.7;
+}
+
+.orgChip {
+  border: 1px solid var(--border);
+  background: #ffffff;
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+/* clickable */
+.orgCardClickable {
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.orgCardClickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.1);
+  border-color: rgba(176, 137, 104, 0.35);
+}
+
+/* ✅ ICON ONLY button */
+.orgHintBtn {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+
+  border: 1px solid var(--border);
+  background: var(--card2);
+  color: var(--accent);
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.orgHintBtn:hover {
+  background: rgba(221, 184, 146, 0.22);
+  border-color: rgba(176, 137, 104, 0.35);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   POPUP / MODAL (Organization)
+   ========================= */
+
+.orgModalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.55);
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+  padding: 18px;
+}
+
+.orgModal {
+  width: min(920px, 100%);
+  max-height: 88vh;
+  overflow: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.25);
+  padding: 22px;
+  position: relative;
+}
+
+.orgModalClose {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--card2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  color: var(--text);
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.orgModalClose:hover {
+  background: rgba(221, 184, 146, 0.25);
+  transform: scale(1.03);
+}
+
+.orgModalHeader {
+  padding-right: 52px;
+}
+
+.orgModalTitle {
+  margin: 0;
+  font-size: clamp(18px, 2.2vw, 24px);
+  font-weight: 950;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.orgModalSub {
+  margin-top: 4px;
+  font-weight: 900;
+  color: var(--accent);
+  font-size: 13.5px;
+}
+
+.orgModalMeta {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.orgModalDesc {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 14.5px;
+}
+
+.orgModalBody {
+  margin-top: 14px;
+}
+
+.orgModalSectionTitle {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--text);
+}
+
+.orgModalBullets {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.orgModalBullets li {
+  margin: 6px 0;
+}
+
+/* images grid */
+.orgModalGrid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.orgModalFigure {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.orgModalImg {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: #fff;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--shadow);
+}
+
+.orgModalCap {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 850;
+  color: var(--accent);
+}
+
+/* Mobile modal */
+@media (max-width: 640px) {
+  .orgModal {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .orgModalGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .orgModalImg {
+    border-radius: 16px;
+  }
+}

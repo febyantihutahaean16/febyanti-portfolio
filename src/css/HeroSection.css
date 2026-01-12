@@ -1,0 +1,96 @@
+.heroCard {
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.heroMedia {
+  position: relative;
+  height: 320px;
+}
+
+.heroImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.05) contrast(1.05);
+  transform: scale(1.01);
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.18),
+    rgba(0, 0, 0, 0.55)
+  );
+}
+
+.heroNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(10, 16, 30, 0.55);
+  color: rgba(232, 238, 252, 0.9);
+  font-size: 26px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.heroNavLeft {
+  left: 14px;
+}
+.heroNavRight {
+  right: 14px;
+}
+
+.heroText {
+  position: absolute;
+  left: 22px;
+  bottom: 18px;
+}
+.heroTitle {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  line-height: 1.05;
+}
+.heroSub {
+  font-size: 16px;
+  font-weight: 800;
+  color: rgba(232, 238, 252, 0.75);
+}
+.heroCaption {
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgba(232, 238, 252, 0.85);
+}
+
+.heroDots {
+  position: absolute;
+  bottom: 16px;
+  right: 18px;
+  display: flex;
+  gap: 8px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+}
+.dot.active {
+  width: 22px;
+  background: rgba(34, 184, 207, 0.95);
+  border-color: rgba(34, 184, 207, 0.95);
+}
