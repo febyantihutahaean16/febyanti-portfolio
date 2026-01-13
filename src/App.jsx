@@ -16,8 +16,8 @@ const profile = {
     "Final-year IT student with a strong focus on web development (Laravel/PHP), databases, and practical project delivery. Comfortable working in teams, communicating clearly, and following technical procedures with discipline.",
   location: "Toba, Indonesia",
   email: "febyanti.hth.93@gmail.com",
-  avatarUrl: "../img/photo_mev2.png",
-  resumeUrl: "../doc/CV_Febyanti_Hutahaean.pdf",
+  avatarUrl: "img/photo_mev2.png",
+  resumeUrl: "doc/CV_Febyanti_Hutahaean.pdf",
   socials: [
     { label: "Email", href: "mailto:febyanti.hth.93@gmail.com", icon: "email" },
     {

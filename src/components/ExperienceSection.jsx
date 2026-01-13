@@ -8,7 +8,7 @@ const experiences = [
     company: "Apple Developer Academy",
     date: "Jun 2025 – Jul 2025",
     location: "Batam, Indonesia",
-    logoUrl: "../img/Apple_logo.png",
+    logoUrl: "img/Apple_Logo.png",
     bullets: [
       "Joined an intensive iOS development bootcamp using Swift, Xcode, and the Apple ecosystem.",
       "Strengthened problem-solving and UI/UX understanding through Challenge Based Learning (CBL) and Apple Human Interface Guidelines (HIG) in a small team setting.",
@@ -18,7 +18,7 @@ const experiences = [
       description:
         "Completed an intensive foundation program focusing on Swift, Xcode, iOS fundamentals, and design thinking. Worked in small teams using Challenge Based Learning (CBL) while following Apple Human Interface Guidelines (HIG).",
       certificateImg: "../img/apple_certificate.jpg",
-      photoImg: "../img/photo_at_apple.jpg",
+      photoImg: "img/photo_at_apple.jpg",
       certificateLabel: "Certificate",
       photoLabel: "Experience Photo",
     },
@@ -28,7 +28,7 @@ const experiences = [
     company: "Del Institute of Technology",
     date: "Jan 2025 – Jun 2025",
     location: "Laguboti, Indonesia",
-    logoUrl: "../img/ITD_logo.jpg",
+    logoUrl: "img/ITD_logo.jpg",
     bullets: [
       "Assisted in preparing materials and exercises on logic, set theory, and basic algorithms.",
       "Guided students through problem-solving sessions and provided academic support.",
@@ -37,8 +37,8 @@ const experiences = [
       title: "Teaching Assistant (Discrete Mathematics)",
       description:
         "Supported the course delivery by preparing tutorial materials, facilitating problem-solving sessions, and helping students strengthen fundamentals in logic, sets, and basic algorithmic thinking.",
-      certificateImg: "../img/ta_discrete_certificate.jpg",
-      photoImg: "../img/ta_discrete_photo.jpg",
+      certificateImg: "img/ta_discrete_certificate.jpg",
+      photoImg: "img/ta_discrete_photo.jpg",
       certificateLabel: "Certificate / Proof",
       photoLabel: "Activity Photo",
     },
@@ -48,7 +48,7 @@ const experiences = [
     company: "Del Institute of Technology",
     date: "Aug 2024 – Dec 2024",
     location: "Laguboti, Indonesia",
-    logoUrl: "../img/ITD_logo.jpg",
+    logoUrl: "img/ITD_logo.jpg",
     bullets: [
       "Helped prepare teaching materials and assignments for English I.",
       "Supported students in improving basic English communication skills.",
@@ -58,8 +58,8 @@ const experiences = [
       title: "Teaching Assistant (English I)",
       description:
         "Assisted students through weekly tutorial sessions, helped prepare course materials and assignments, and supported improvement of basic English communication skills for the 2024 Diploma III cohort.",
-      certificateImg: "../img/ta_english_certificate.jpg",
-      photoImg: "../img/ta_english_photo.jpg",
+      certificateImg: "img/ta_english_certificate.jpg",
+      photoImg: "img/ta_english_photo.jpg",
       certificateLabel: "Certificate / Proof",
       photoLabel: "Activity Photo",
     },

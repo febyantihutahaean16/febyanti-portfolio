@@ -8,13 +8,13 @@ export default function HeroSection() {
         title: "Febyanti.",
         subtitle: "Technology",
         caption: "Current Work: Final-year IT Student",
-        imageUrl: "../img/hero-1.jpg",
+        imageUrl: "img/me3.jpg",
       },
       {
         title: "Febyanti.",
         subtitle: "Creativity",
         caption: "Current Work: Web Development & Projects",
-        imageUrl: "../img/hero-2.jpg",
+        imageUrl: "img/me4.jpg",
       },
     ],
     []
