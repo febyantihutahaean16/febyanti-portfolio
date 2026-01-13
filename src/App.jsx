@@ -17,7 +17,7 @@ const profile = {
   location: "Toba, Indonesia",
   email: "febyanti.hth.93@gmail.com",
   avatarUrl: "img/photo_mev2.png",
-  resumeUrl: "doc/CV_Febyanti_Hutahaean.pdf",
+  resumeUrl: "doc/CV_Febyanti Hutahaean.pdf",
   socials: [
     { label: "Email", href: "mailto:febyanti.hth.93@gmail.com", icon: "email" },
     {
